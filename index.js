@@ -12,7 +12,7 @@
  * `bd` invocations, and the workspace id must resolve through the Host
  * workspace registry.
  *
- * @module @local/dsh-beads-panel
+ * @module dsh-beads-panel
  */
 import { execFile } from "node:child_process";
 import { access, constants, stat } from "node:fs/promises";

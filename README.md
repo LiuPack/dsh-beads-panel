@@ -39,8 +39,14 @@ Requires the Beads CLI (`bd`) on `PATH` (or set `BEADS_BIN`), for example:
 curl -fsSL https://raw.githubusercontent.com/gastownhall/beads/main/scripts/install.sh | bash
 ```
 
-This repository is a local Harness bundle (not an npm package). Clone it and
-install its directory from a Harness session with Full access:
+Install the published bundle from npm:
+
+```bash
+dsh plugin --profile <profile> add dsh-beads-panel
+```
+
+Install this checkout as a local bundle instead (from a Harness session with
+Full access):
 
 ```bash
 git clone https://github.com/LiuPack/dsh-beads-panel.git
@@ -53,7 +59,7 @@ plugin_manager action=install_bundle target=<absolute path to this checkout>
 Then pick **Beads** in the left sidebar panel list. To remove it:
 
 ```
-plugin_manager action=remove_bundle target=@local/dsh-beads-panel
+plugin_manager action=remove_bundle target=dsh-beads-panel
 ```
 
 ## Use

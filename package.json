@@ -1,9 +1,28 @@
 {
-  "name": "@local/dsh-beads-panel",
+  "name": "dsh-beads-panel",
   "version": "1.0.0",
-  "private": true,
-  "description": "Beads issue-graph panel for the DeepSeek Harness left sidebar",
+  "description": "Beads issue-graph panel for the DeepSeek Harness left sidebar: browse ready/open beads, read issue detail, and create, claim, or close beads through the bd CLI.",
   "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "beads",
+    "bd",
+    "issues",
+    "sidebar"
+  ],
+  "homepage": "https://github.com/LiuPack/dsh-beads-panel#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiuPack/dsh-beads-panel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LiuPack/dsh-beads-panel/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",

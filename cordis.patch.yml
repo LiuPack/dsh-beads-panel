@@ -2,5 +2,5 @@
 # Client half renders the Beads entry in the left sidebar panel list.
 - insert:
     - id: beads-panel
-      name: '@local/dsh-beads-panel'
+      name: dsh-beads-panel
       config: {}

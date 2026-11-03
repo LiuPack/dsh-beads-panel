@@ -6,10 +6,10 @@
  * owner-only endpoint `/__dsh_beads/api`; this module owns only presentation and
  * the explicit create/claim/close requests.
  *
- * @module @local/dsh-beads-panel/client
+ * @module dsh-beads-panel/client
  */
 window.__ModuleLoader__.load({
-	id: '@local/dsh-beads-panel',
+	id: 'dsh-beads-panel',
 	factory(require) {
 		const React = require('react');
 		const h = React.createElement;
