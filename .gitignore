@@ -1,0 +1,13 @@
+# Dependencies and local artifacts of a linked Harness bundle.
+node_modules/
+.pnpm-store/
+
+# Editor and OS noise.
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Logs.
+*.log

@@ -1,0 +1,6 @@
+# One Host row serves the panel's JSON API (over the local web server) and the
+# Client half renders the Beads entry in the left sidebar panel list.
+- insert:
+    - id: beads-panel
+      name: '@local/dsh-beads-panel'
+      config: {}

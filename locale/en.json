@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Beads",
+    "description": "Adds a Beads panel to the left sidebar: browse the workspace's dependency-aware issue graph, inspect beads, create new ones, and claim or close work."
+  }
+}

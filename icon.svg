@@ -1,0 +1,22 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12.6 23.4L17.1 13.9M19 13.4L25.2 19.4" stroke="url(#beads-link)" stroke-width="2" stroke-linecap="round" />
+  <circle cx="18" cy="11.4" r="5.2" fill="url(#beads-a)" />
+  <circle cx="18" cy="11.4" r="2.1" fill="#FFFFFF" fill-opacity="0.92" />
+  <circle cx="10.9" cy="25.1" r="4.3" fill="url(#beads-b)" />
+  <circle cx="26.1" cy="21.1" r="3.7" fill="url(#beads-b)" />
+  <circle cx="26.1" cy="21.1" r="1.5" fill="#FFFFFF" fill-opacity="0.85" />
+  <defs>
+    <linearGradient id="beads-a" x1="13" y1="6" x2="23" y2="17" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7AC2FF" />
+      <stop offset="1" stop-color="#4A65E8" />
+    </linearGradient>
+    <linearGradient id="beads-b" x1="7" y1="21" x2="30" y2="22" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45D9E7" />
+      <stop offset="1" stop-color="#7AC2FF" />
+    </linearGradient>
+    <linearGradient id="beads-link" x1="11" y1="24" x2="26" y2="13" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4A65E8" />
+      <stop offset="1" stop-color="#45D9E7" />
+    </linearGradient>
+  </defs>
+</svg>
