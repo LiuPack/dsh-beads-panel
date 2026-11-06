@@ -1,5 +1,7 @@
 # Beads panel for DeepSeek Harness
 
+[![Listed on dsh-plugin.org](https://dsh-plugin.org/badges/listed.svg)](https://dsh-plugin.org/plugins/liupack/dsh-beads-panel)
+
 A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin that
 puts [Beads](https://github.com/gastownhall/beads) into the Web GUI's left
 sidebar panel list.
